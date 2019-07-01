@@ -1,0 +1,48 @@
+.shoping-item{
+    display:flex;
+   justify-content: space-around;
+   background: white
+
+}
+.soping-item-i{
+    display:flex;
+    flex-direction: column;
+    position: relative;
+    top: 17px;
+   
+}
+.shoping-item-info{
+    position: relative;
+    top: -6px;
+
+}
+.total-price{
+   
+    display: flex;
+   flex-direction: column;
+    
+}
+.shopin-item-img{
+    background: white;
+}
+.shoping-item-price{
+    position: relative;
+    top: -18px;
+
+}
+.txt-price{
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-size: 34px;
+    letter-spacing: -0.4px;
+    word-spacing: 2.8px;
+    color: #FF261A;
+    font-weight: 700;
+    text-decoration: none solid rgb(68, 68, 68);
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+}
+.tot-price{
+    display: flex;
+    justify-content: center;
+}
